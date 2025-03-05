@@ -9,18 +9,18 @@ const Projects = () => {
      
       <br />
       <section>
-      <div class="card">
-        <p class="heading">Popular this month</p>
+      <div className="card">
+        <p className="heading">Popular this month</p>
         <p>Powered By</p>
   
       </div>
-      <div class="card">
-        <p class="heading">Popular this month</p>
+      <div className="card">
+        <p className="heading">Popular this month</p>
         <p>Powered By</p>
 
       </div>
-      <div class="card">
-        <p class="heading">Popular this month</p>
+      <div className="card">
+        <p className="heading">Popular this month</p>
         <p>Powered By</p>
 
       </div>
