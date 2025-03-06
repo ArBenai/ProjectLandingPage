@@ -10,7 +10,8 @@ const Projects = () => {
       <br />
       <section>
       <div className="card">
-        <p className="heading">Popular this month</p>
+      <p className="heading">Popular this month</p>
+      <p>Powered By</p>
   
       </div>
       <div className="card">
@@ -23,6 +24,7 @@ const Projects = () => {
         <p>Powered By</p>
 
       </div>
+      
       </section>
       
       <br />
