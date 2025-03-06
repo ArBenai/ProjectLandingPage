@@ -1,17 +1,16 @@
 import React from "react";
 import "../styles/Animation.css";
 
+
+
 const Projects = () => {
   return (
     <div className="container" > 
-      <h1>Our Projects</h1>
-      <p>Here are some of the projects we have worked on.</p>
-     
+      <h1>Our Projects</h1>     
       <br />
       <section>
       <div className="card">
         <p className="heading">Popular this month</p>
-        <p>Powered By</p>
   
       </div>
       <div className="card">

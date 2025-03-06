@@ -1,0 +1,26 @@
+.navbar {
+    background-color: rgb(26, 26, 26, 0.5);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+.navbar:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.navbar a:hover {
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 3px solid rgb(255, 255, 0);
+    border-radius: 35px;
+}

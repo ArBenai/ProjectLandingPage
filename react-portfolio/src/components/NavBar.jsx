@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // React Router Link for navigation
+import { Link } from 'react-router-dom'; 
+import '../styles/NavBar.css';
 
 const NavBar = () => {
   return (
-    <nav style={navbarStyle}>
+    <nav className='navbar' style={navbarStyle}>
       <ul style={navbarListStyle}>
         <li style={navbarItemStyle}>
           <Link to="/" style={linkStyle}>Home</Link>
@@ -19,13 +20,15 @@ const NavBar = () => {
   );
 };
 
+
 const navbarStyle = {
-  backgroundColor: '#4a90e2',
+  backgroundColor: '#00000',
   padding: '15px 20px',
   position: 'sticky',
   top: 0,
   zIndex: 1000,
-  borderRadius: '10px',
+  borderRadius: '35px',
+    boxShadow: '0 0 5px black',
 };
 
 const navbarListStyle = {

@@ -10,7 +10,7 @@ const Contacts = () => {
       <p>Let me your Name and Email and i will contact you soon.</p>
       <ContactForm />
       <br />
-      <button className='goBack' onClick={() => window.location = '/'}>Go back to the homepage</button>
+      <button className='goBack' onClick={() => window.location = '/'}>Go back to the Homepage</button>
     </div>
   );
 };

@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-        <p className="footer" >© 2021 by Your Name</p>
+        <span className="footer" >Copyright © 2025 by ArbenAI</span>
         </footer>
     );
     };

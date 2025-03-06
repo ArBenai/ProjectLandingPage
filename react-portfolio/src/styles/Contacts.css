@@ -6,7 +6,7 @@
 
 body {
   font-family: "Arial", sans-serif;
-  background-color: rgb(0, 43, 78);
+  background-image: radial-gradient(circle, #b0ff00, #c8a600, #a35a20, #030202ef, rgb(0, 0, 0));
   margin: 0;
   padding: 0;
   display: flex;
@@ -17,7 +17,6 @@ body {
 
 /* Main Container */
 div {
-  background-color: #31313186;
   border-radius: 15px;
   padding: 20px;
   max-width: 60rem;
@@ -30,13 +29,16 @@ div {
 h1 {
   font-size: 2rem;
   text-decoration: underline;
-  color: yellow;
+  color: rgb(255, 255, 0);
+  text-shadow: black 2px 2px 2px;
   margin-bottom: 20px;
   animation: fadeInUp 1s ease-out;
 }
+
 p {
   font-size: 1.2rem;
-  color: yellow;
+  color: rgb(255, 255, 0);
+  text-shadow: black 2px 2px 2px;
   margin-bottom: 30px;
 }
 
@@ -61,16 +63,16 @@ input {
 }
 
 input:focus {
-  border-color: #5c6bc0;
+  border-color: white;
   box-shadow: 0px 10px 20px rgba(255, 251, 0, 0.692);
 }
 
 /* Submit Button Styling */
 button {
   padding: 10px 20px;
-  font-size: 1.1rem;
-  background-color: #00a2ffdc;
-  color: white;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 0, 0.4);
+  color: rgb(0, 0, 0);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -78,7 +80,7 @@ button {
 }
 
 button:hover {
-  background-color: #001780;
+  background-color: #460000;
   color: yellow;
 }
 
@@ -90,7 +92,7 @@ button:active {
 .goBack {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #ff00006e;
+  background-color: rgba(255, 0, 0, 0.5);
   color: white;
   border: none;
   border-radius: 5px;
@@ -99,7 +101,7 @@ button:active {
 }
 
 .goBack:hover {
-  background-color: #ff0000;
+  background-color: rgb(255, 0, 0);
 }
 
 .goBack:active {
@@ -129,3 +131,4 @@ button:active {
     transform: translateY(0);
   }
 }
+
