@@ -7,7 +7,7 @@ const Contacts = () => {
   return (
     <div className="container" >
       <h1 >Contact Site</h1>
-      <p>Let me your Name and Email and i will contact you soon.</p>
+      <p>Send me your Name & Email and i will contact you soon.</p>
       <ContactForm />
       <br />
       <button className='goBack' onClick={() => window.location = '/'}>Go back to the Homepage</button>

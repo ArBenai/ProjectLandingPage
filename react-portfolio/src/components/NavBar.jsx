@@ -13,6 +13,9 @@ const NavBar = () => {
           <Link to="/contacts" style={linkStyle}>Contacts</Link>
         </li>
         <li style={navbarItemStyle}>
+          <Link to="/watchlist" style={linkStyle}>Watchlist</Link>
+        </li>
+        <li style={navbarItemStyle}>
           <Link to="/projects" style={linkStyle}>Projects</Link>
         </li>
       </ul>
@@ -45,7 +48,7 @@ const navbarItemStyle = {
 };
 
 const linkStyle = {
-  color: 'white',
+  color: 'yellow',
   textDecoration: 'none',
   fontWeight: 'bold',
   
