@@ -1,14 +1,19 @@
 import React from "react";
 import '../styles/HomePage.css';
+import Carousel from "./HomePageCar";
 
 const HomePage = () => {
   return (
-    <div className="container" style={homePageStyle}>
-      <h1 style={headingStyle}>Welcome to My Website!</h1>
+    <section>
+      <div className="container" style={homePageStyle}>
+      <h1 style={headingStyle}>Willkommen bei ArbenAI</h1>
       <p style={paragraphStyle}>
-        Let's build something amazing together.
+        Viel Spaß beim durch stöbern unserer Seite.
       </p>
+      <Carousel />
     </div>
+    </section>   
+    
   );
 };
 

@@ -60,7 +60,7 @@ const ContactForm = () => {
           />
         </div>
 
-        <button type="submit">Submit</button>
+        <button type="submit">Antippen</button>
       </form>
     </div>
   );
