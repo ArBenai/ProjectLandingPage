@@ -9,7 +9,13 @@ const Skills = () => {
       <section>
         <div className="card">
           <img src="HTML5.jpg" alt="HTML5" />
-          <p>HTML </p>
+          <a
+          className="links"
+          href="https://arbenai.github.io/First-Project/"
+          target="blank"
+        >
+          First HTML-Vanilla Proj.
+        </a>
         </div>
         <div className="card" >
           <img src="css.png" alt="CSS3" />
@@ -21,11 +27,24 @@ const Skills = () => {
         </div>
         <div className="card">
           <img src="boots.jpeg" alt="Bootstrap" />
-          <p>Bootstrap</p>
+          <a
+          className="links"
+          href="https://arbenai.github.io/first-bootstrap-design/"
+          target="blank"
+        >
+          First Bootstrap Proj.
+        </a>
+        
         </div>
         <div className="card">
           <img src="tailwind.jpeg" alt="Tailwind" />
-          <p>Tailwind</p>
+          <a className="links"
+
+          href="https://arbenai.github.io/rocket-folio/"
+          target="blank"
+        >
+          Rocket Folio Proj.
+        </a>
         </div>
         <div className="card">
           <p className="heading">Coming soon</p>

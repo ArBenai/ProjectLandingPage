@@ -39,13 +39,13 @@ function CountGame() {
     setNotification(`Dein Ergebnis: ${count} Klicks!`);
     setTimeout(() => {
       setNotification("");
-    }, 3000);
+    }, 5000);
   };
 
   return (
     <div className='box' style={{ padding: "20px", textAlign: "center" }}>
-      {!gameStarted ? (
-        <button
+      <p>Klicken Sie so oft wie möglich bis die Zeit abläuft.</p>
+      {!gameStarted ? (<button
           onClick={startGame}
           style={{
             padding: "10px 20px",
@@ -82,6 +82,7 @@ function CountGame() {
           >
             +1
           </button>
+          <br />
           <p>Timer: {timer} Sekunden</p>
         </div>
       )}
@@ -89,12 +90,12 @@ function CountGame() {
         <div
           style={{
             position: "fixed",
-            bottom: "20px",
+            top: "30rem",
             left: "50%",
             transform: "translateX(-50%)",
             backgroundColor: "rgba(0, 0, 0, 0.8)",
             color: "yellow",
-            padding: "10px 20px",
+            padding: "20px 20px",
             borderRadius: "5px",
             boxShadow: "0 4px 6px rgba(0, 0, 0, 0.2)",
             fontSize: "14px",
