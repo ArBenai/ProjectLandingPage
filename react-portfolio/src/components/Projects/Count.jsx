@@ -44,7 +44,7 @@ function CountGame() {
 
   return (
     <div className='box' style={{ padding: "20px", textAlign: "center" }}>
-      <p>Klicken Sie so oft wie möglich bis die Zeit abläuft.</p>
+      <p>Klicken Sie so oft wie möglich bis die Zeit abläuft. Der erste Versuch ist Frei. </p>
       {!gameStarted ? (<button
           onClick={startGame}
           style={{
