@@ -7,10 +7,11 @@ const Footer = () => {
     <footer className='footer'
       style={{
         fontSize: "12px",
+        width: "100%",
+        height: "130px",
         backgroundColor: "rgba(0, 0, 0, 0.2)",
         borderRadius: "0 0 15px 15px",
         color: "rgba(255, 255, 255, 0.4)",
-        padding: "1px 0",
         textAlign: "center",
       }}
     >
@@ -45,10 +46,10 @@ const Footer = () => {
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
+        <span>&copy; Copyright 2025 by ArbenAI</span>
       </div>
 
       <div style={{fontSize: "12px" }}>
-        <span>&copy; Copyright 2025 by ArbenAI</span>
       </div>
     </footer>
   );

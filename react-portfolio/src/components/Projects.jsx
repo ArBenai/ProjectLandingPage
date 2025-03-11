@@ -6,7 +6,7 @@ import "../styles/Project.css";
 function Projects() {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1 className="projectsH1" >Projects</h1>
       <Count />
       <br />
       <div className="projectsCont"> 

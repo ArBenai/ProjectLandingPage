@@ -28,7 +28,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="carousel-container" style={{ position: "relative", width: "600px", overflow: "hidden" }}>
+    <div className="carousel-container" style={{ position: "relative", width: "100%", overflow: "hidden" }}>
       <div
         className="carousel-slides"
         style={{
