@@ -7,7 +7,7 @@ const Skills = () => {
       <h1>Skills</h1>
       <br />
       <section>
-        <div className="card">
+        <div id="skillsDiv" className="card">
           <img src="html5.jpg" alt="HTML5" />
           <a
           className="links"
